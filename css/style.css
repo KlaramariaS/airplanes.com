@@ -6,7 +6,7 @@
 /* alternatives Boxmodell */
 html { 
   box-sizing: border-box; 
-  background: #d5d5d5;	
+  background: #FFFAFA;	
 } 
 
 *, ::before, ::after { 
@@ -18,7 +18,7 @@ body {
 	margin:0 auto;
 	padding: 0;
 	background: #fff;	
-	color: #333; 
+	color: #00BFFF; 
 	font: normal 1em Arial, sans-serif;  /* Mindestschriftgröße wird dem Browser, bzw. dem Nutzer überlassen! */
                     
 }
@@ -31,7 +31,7 @@ header {
 	position: relative;		
 	height: 210px;
 	margin: 2em  0  0 3em;
-	background: #777 url("../img/Design03-head.jpg") no-repeat right; 
+	background: #D3D3D3 url("../img/Design03-head.jpg") no-repeat right; 
 	background-size: contain; 			 
 	padding: 0 0 0.5em;
 }
@@ -49,7 +49,7 @@ header a p {			/*Die Angaben für h1 müssen mit einem genauen Selektor übersch
 	position: relative;	
 	margin: 2em 0 2em -1.5em;
 	padding: 0.5em 1em;
-	background: #4e7a92;
+	background: #87CEFA;
 	box-shadow: 0px 1px 3px rgba(0,0,0,.8);
 }
  
@@ -84,7 +84,7 @@ h2 {
 	
 h2 span {
 	font-size: 0.70em; 
-	color: #818181; 
+	color: lightblue; 
 	text-transform: none;
 }
 
