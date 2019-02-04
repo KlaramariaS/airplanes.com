@@ -7,6 +7,7 @@
 html { 
   box-sizing: border-box; 
   background: #FFFAFA;	
+  scroll-behavior: smooth;
 } 
 
 *, ::before, ::after { 
@@ -23,7 +24,32 @@ body {
                     
 }
 
+/* Adaptions */
 
+.img_article_pic {
+	width:80% 
+	
+	}
+	
+/* Video */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 /* ====================================================   HEADER   ==================================================== */
 
@@ -226,6 +252,10 @@ nav a[aria-current=page]{
  background: #aaa;
 }
 
+#nav ul class {
+
+}
+
 
 
 /* ========== repsonsives Grid-Layout ========== */
@@ -233,6 +263,8 @@ nav a[aria-current=page]{
 /* mobile first - auf schmalen Bildschirmen wird alles untereinander platziert. */ 
 
 /* ab einer Breite von 30em haben zwei Spalten nebeneinander Platz: */
+
+
 
 @media (min-width: 30em) { 
   main {
