@@ -1,3 +1,4 @@
+
 /* Stylesheet für Selfhtml Design 03 
   responsives Layout mit Grid Layout ab Z. 210   */
 
@@ -6,7 +7,7 @@
 /* alternatives Boxmodell */
 html { 
   box-sizing: border-box; 
-  background: #FFFAFA;	
+  background: #4e7a92;	
   scroll-behavior: smooth;
 } 
 
@@ -31,25 +32,36 @@ body {
 	
 	}
 	
-/* Video */
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
+.classname {
+	width: 75%;
+	height: auto;
+	margin-bottom: 10%;
 }
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
+	
+.responsive-video {
+    position: relative;
+    padding-bottom: 15.25%; 
+    padding-top: 25px;
+    height: 0;
+}
+.responsive-video iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
+
+table {
+	color: black;
+	margin-top: 0%;
+	margin-bottom: 10%;
+	background-color: lightgrey;
+	
+
+
+}
+
 
 /* ====================================================   HEADER   ==================================================== */
 
@@ -75,7 +87,7 @@ header a p {			/*Die Angaben für h1 müssen mit einem genauen Selektor übersch
 	position: relative;	
 	margin: 2em 0 2em -1.5em;
 	padding: 0.5em 1em;
-	background: #87CEFA;
+	background: lightblue;
 	box-shadow: 0px 1px 3px rgba(0,0,0,.8);
 }
  
@@ -127,6 +139,15 @@ p {
 	line-height: 1.6em; 
 	padding: 20px 0px;
 	color: black;
+	margin-right: 10%;
+}
+
+p1 {
+	font-style: oblique;
+	color: black;
+	margin-top: 10%;
+	
+
 }
 
 a 	{ 
